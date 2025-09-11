@@ -7,7 +7,7 @@
         <center><table width="60%", border="1", bordercolor="black">
             <tr>
                 <br>
-                <td bgcolor="#0097cf"><center>
+                <td bgcolor="#bedffa"><center>
                     <b>PERSONAL INFORMATION</b>
                 </center></td>
             </tr>
@@ -65,9 +65,176 @@
                         <label for="availDate">Date available:</label>
                         <input type="date" id="availDate" name="availDate">
 
+                        
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <form>
                         <label for="desPay">Desired pay: $</label>
                         <input type="number" id="desPay" name="desPay">
+
+                        <input type="radio" id="hour" name="choice" value="hour">
+                        <label for="hour">Hour</label>
+                        
+                        <input type="radio" id="salary" name="choice" value="salary">
+                        <label for="salary">Salary</label> &nbsp;&nbsp;
+
+                        <label for="position">Position applied for:</label>
+                        <input type="text" size="30" id="position" name="position">
+
+                        <br>
+                        <label for="employmentDesired">Employment desired:</label>
+                        <input type="radio" id="fullTime" name="choice2" value="fullTime">
+                        <label for="fullTime">Full-time</label>
+                        <input type="radio" id="partTime" name="choice2" value="partTime">
+                        <label for="partTime">Part-time</label>
+                        <input type="radio" id="seasonal" name="choice2" value="seasonal">
+                        <label for="seasonal">Seasonal</label>
                     </form>
+                </td>
+            </tr>
+        </table>
+
+        <center><table width="60%", border="1", bordercolor="black">
+            <tr>
+                <br>
+                <td bgcolor="#bedffa"><center>
+                    <b>EMPLOYMENT ELIGIBILITY</b>
+                </center></td>
+            </tr>
+        </table></center>
+
+        <table align="center">
+            <tr>
+                <td>
+                    <br>
+                    <label for="phCitizen">Are you a Filipino citizen?</label>
+                    <input type="radio" id="yes" name="choice3" value="yes">
+                    <label for="yes">Yes</label>
+                    <input type="radio" id="no" name="choice3" value="no">
+                    <label for="no">No</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phWork">If no, are you allowed to work in the Philippines?</label>
+                    <input type="radio" id="yes2" name="choice4" value="yes2">
+                    <label for="yes2">Yes</label>
+                    <input type="radio" id="no2" name="choice4" value="no2">
+                    <label for="no2">No</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phEmployer">Have you ever worked for this employer?</label>
+                    <input type="radio" id="yes3" name="choice5" value="yes3">
+                    <label for="yes3">Yes</label>
+                    <input type="radio" id="no3" name="choice5" value="no3">
+                    <label for="no3">No</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="startendDates">*If yes, choose the start and end dates:</label>
+                    <p></p>
+                    <label for="startDate">Start date:</label>
+                    <input type="date" id="startendDates" name="startendDates">
+                    <p></p>
+                    <label for="endDate">End date:</label>
+                    <input type="date" id="startendDates" name="startendDates">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <br>
+                    <label for="phEmployer">Have you ever been convicted of a felony?</label>
+                    <input type="radio" id="yes3" name="choice5" value="yes3">
+                    <label for="yes3">Yes</label>
+                    <input type="radio" id="no3" name="choice5" value="no3">
+                    <label for="no3">No</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="explain">*If yes, please explain:</label>
+                    <input type="text" id="explain" name="explain">
+                </td>
+            </tr>
+        </table>
+        
+        <br>
+        <center><table width="60%", border="1", bordercolor="black">
+            <tr>
+                <br>
+                <td bgcolor="#bedffa"><center>
+                    <b>EDUCATION</b>
+                </center></td>
+            </tr>
+        </table></center>
+
+        <table align="center">
+            <tr>
+                <td>
+                    <label for="highSchool">High School:</label>
+                    <input type="text" id="highSchool" name="highSchool">
+
+                    <label for="cityState">City / State:</label>
+                    <input type="text" id="cityState" name="cityState">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="from">From:</label>
+                    <input type="text" id="from" name="from">
+
+                    <label for="to">To:</label>
+                    <input type="text" id="to" name="to">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="graduate">Graduate?</label>
+                    <input type="radio" id="yes4" name="choice6" value="yes4">
+                    <label for="yes4">Yes</label>
+                    <input type="radio" id="no4" name="choice6" value="no4">
+                    <label for="no4">No</label>
+
+                    &nbsp;&nbsp;
+                    <label for="diploma">Diploma:</label>
+                    <input type="text" id="diploma" name="diploma">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <br>
+                    <label for="college">College:</label>
+                    <input type="text" id="college" name="college">
+                    <label for="cityState2">City / State:</label>
+                    <input type="text" id="cityState2" name="cityState2">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="from">From:</label>
+                    <input type="text" id="from2" name="from2">
+
+                    <label for="to">To:</label>
+                    <input type="text" id="to2" name="to2">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="graduate">Graduate?</label>
+                    <input type="radio" id="yes5" name="choice7" value="yes5">
+                    <label for="yes5">Yes</label>
+                    <input type="radio" id="no5" name="choice7" value="no5">
+                    <label for="no5">No</label>
+
+                    &nbsp;&nbsp;
+                    <label for="degree">Degree:</label>
+                    <input type="text" id="degree" name="degree">
                 </td>
             </tr>
         </table>
